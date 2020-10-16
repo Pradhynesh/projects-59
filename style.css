@@ -1,0 +1,117 @@
+body{
+    margin:0;
+    padding-top: 350px;
+    text-align: center;
+}
+.profile{
+ margin-top: 50px;
+    width: 350px;
+    border-radius: 50%;
+}
+#a{
+    position: absolute;
+    overflow: hidden;
+    height: 800px;
+    color: aliceblue;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.83;
+    background: linear-gradient(#94ff94 0%,#0037ff 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    
+}
+h1{
+    font-size: 50px;
+    line-height: 1.2;
+    font-weight: 300;
+    font-family: cursive;
+}
+#name{
+    font-size: 50px;
+    font-family: Times New Romen;
+    line-height: 1.2;
+}
+h2{
+    font-size: 60px;
+    line-height: 1.2;
+    font-weight: 300;
+    font-family: cursive;
+}
+#hobby{
+  padding-top:250px;
+    text-align: center;
+    font-size: 35px;
+}
+.line{
+    height: 6px;
+    background-color: black;
+    margin: 8px auto;
+    width: 70px;
+}
+p{
+    max-width: 500px;
+    margin: 20px auto;
+    font-size: 18px;
+    line-height: 1.3;
+}
+.parallax-inner{
+    display: table-cell;
+    position: relative;
+    text-align: center;
+  vertical-align: middle;
+}
+.menu{
+    list-style: none;
+    font-family: cursive;
+    position: fixed;
+    top: 10px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+}
+.links {
+    float: left;
+    color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.links:hover{
+    background-color:aqua;
+}
+
+#app{
+    width: 100%;
+    height: 800px;
+    background:linear-gradient(#f2ff00 0%,#ff4000 100%) ;
+    
+}
+.line{
+    width: 70px;
+    height: 6px;
+    background-color: white;
+    margin: 8px auto;
+    
+}
+#game{
+    width: 100%;
+    height: 800px;
+    background-color: chartreuse;
+    align-content: center;
+    
+}
+img{
+    transition: transform.2s;
+    
+}
+img:hover{
+    transform: scale(0.9);
+}
